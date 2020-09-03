@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<html>
+<title>FCC - Responsive Web Design Projects - Build a Survey Form</title>
+<main id="main">
+  <heading>
+    <div= id="head">
+    <h1 id="title">- SURVEY FORM -  
+    </h1>
+    <p id="description"><strong>Personal information will totally not be used for theft of identity.</strong>
+    </p>
+    </div>
+  </heading>
+    
+  <body>
+   <form id="survey-form">
+     <div class="form">
+       <label id="name-label">Name:</label><br>
+       <input id="name" type="text" placeholder="ex: Tina Belcher" required>
+     </div>
+     <div class="form"><br>
+       <label id="email-label">Email:</label><br>
+       <input id="email" type="email" placeholder="ex: cutie68@hotmail.com" required>
+     </div>
+     <div class="form"><br>
+       <label id="number-label">Age:</label><br>
+       <input id="number" type="number" placeholder="18+" min="18" max="150">
+     </div>
+     <div class="form"><br>
+       <p>Please Select Closest Applicable:</p>       
+       <input type="radio" id="elephant" name="radio-select" value="elephant">
+       <label for="elephant">Elephant</label><br>       
+       <input type="radio" id="purple" name="radio-select" value="purple">
+       <label for="purple">Purple</label><br>     
+       <input type="radio" id="quesodilla" name="radio-select" value="quesadilla">
+       <label for="quesadilla">Quesadilla</label><br>
+     </div>
+     <div class="form"><br>
+       <p>Check All That Apply:<p>
+       <input type="checkbox" name="check-select" id="zealous" value="zealous">
+       <label>Zealous</label><br>
+       <input type="checkbox" name="check-select" id="zesty" value="zesty">
+       <label>Zesty</label><br>
+       <input type="checkbox" name="check-select" id="zany" value="zany">
+       <label>Zany</label><br>
+       <input type="checkbox" name="check-select" id="zippy" value="zippy">
+       <label>Zippy</label><br>
+     </div><br>
+     <div>
+       <p>Please Select Your Preferred Number:</p>
+       <select id="dropdown" name="dropdown" required>
+         <option disabled selected>Choose One</option>
+         <option value="one">One</option>
+         <option value"two">Two</option>
+         <option value="three">Three</option>
+         <option value="four">Four</option>
+       </select>
+     </div>
+     <div class="form"><br>
+       <p>Tell Me a Story:</p>
+       <textarea id="text-area" placeholder="Once upon a time..."></textarea>
+     </div>
+     <div>
+       <button id="submit" type="submit" value="submit"><strong>SUBMIT</strong></button>
+     </div>
+   </form>
+  </body>
+  <footer>
+    <p>By submitting this form you henceforth give me permissions to use all personal data for personal gain.</p>
+  </footer>
+</main>
+</html>
